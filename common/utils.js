@@ -4,14 +4,14 @@ utils.flaggedUsers =
     [1663882102141, 1663900040545];
 
 utils.styles = {
-    car: 'gray',
-    fish: 'red',
-    house: 'yellow',
-    tree: 'green',
-    bicycle:'cyan',
-    guitar: 'blue',
-    pencil: 'magenta',
-    clock: 'lightgray',
+    car: {color: '#1A281F'},
+    fish: {color: '#456990'},
+    house: {color: '#A2D6F9'},
+    tree: {color: '#6F732F'},
+    bicycle:{color: '#B38A58'},
+    guitar: {color: '#E2856E'},
+    pencil: {color: '#CC998D'},
+    clock: {color: '#BFB48F'},
 };
     
 utils.formatPercent =(n) =>{
