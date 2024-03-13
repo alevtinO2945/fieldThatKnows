@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+canvas{
+    box-shadow: black 0px 0px 10px 2px;
+}
+
 #video-bg {
     position: fixed;
     top: 0;
@@ -25,23 +29,23 @@ body {
     color: white;
     z-index: 1;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Додамо прозорий фон для кращої читабельності тексту */
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
 button {
     cursor: pointer;
-    border: 2px solid white; /* Біла рамка */
-    border-radius: 10px; /* Закруглені кути */
-    padding: 10px 20px; /* Підгонка розміру */
-    background-color: transparent; /* Прозорий фон */
-    color: white; /* Білий текст */
-    transition: all 0.3s ease; /* Плавна анімація для всіх властивостей */
+    border: 2px solid white; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    background-color: transparent;
+    color: white; 
+    transition: all 0.3s ease;
 }
 
 button:hover {
     background-color: rgba(255, 255, 255, 0.3); /* Прозорий фон при наведенні */
-    color: navy; /* Колір тексту при наведенні */
+    color: navy; 
 }
 
 
@@ -74,7 +78,19 @@ button:hover {
     filter: blur(5px);
 }
 
-.chartContainer{
+#chartContainer{
     text-align: center;
-    display: block;
+    display: inline-block;
+}
+
+
+#inputContainer{
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.content-inner-wrapper{
+    display: flex;
+    flex-direction: row;
 }
